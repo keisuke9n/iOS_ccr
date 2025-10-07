@@ -1,0 +1,45 @@
+@media (prefers-color-scheme: dark) {
+  :root { color-scheme: dark; }
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f1f5f9;
+  line-height: 1.7;
+}
+
+.site-header {
+  padding: 40px 16px 16px;
+  text-align: center;
+}
+.site-header h1 { margin: 0 0 8px; color: #67e8f9; }
+.site-header .app-name { color: #cbd5e1; margin: 0; font-size: 14px; }
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  padding: 18px 18px;
+  margin: 14px 0;
+  backdrop-filter: blur(6px);
+}
+
+.card h2 { margin: 0 0 8px; font-size: 18px; color: #e2e8f0; }
+.card p { margin: 8px 0; color: #e5e7eb; }
+.card ul { margin: 8px 0 8px 18px; padding: 0; }
+.card li { margin: 6px 0; color: #e5e7eb; }
+
+a { color: #7dd3fc; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-footer { text-align: center; color: #cbd5e1; padding: 24px 12px 36px; }
+
